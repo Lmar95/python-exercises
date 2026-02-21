@@ -1,9 +1,12 @@
-# Ecrire un programme qui demande le nom et l'âge d’un étudiant à l'université et afficher "Bonjour ..., tu as ... ans et bienvenue à l'université" en remplaçant les ... par, respectivement le nom et l'âge
-print("Welcoming Program")
+"""\
+# Exercise 1 — Program that displays the name and age of the user
+# ─────────────────────────────────────────────────────────────────
 
-# Recueil des informations
-nom = str(input("Veuillez saisir votre nom : "))
-age = int(input("Veuillez saisir votre age : "))
+def main():
+    name = input("Enter your name: ")
+    age  = int(input("Enter your age : "))
+    print(f"\\nHello, {name}! You are {age} years old.")
 
-# Affichage du message de bienvenue
-print(f"Bonjour {nom}, tu as {age} ans et bienvenue a l'universite.")
+if __name__ == "__main__":
+    main()
+"""
